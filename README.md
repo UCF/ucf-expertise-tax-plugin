@@ -1,47 +1,40 @@
-=== UCF Expertise Taxonomy Plugin ===
-Contributors: ucfwebcom
-Requires at least: 6.0
-Tested up to: 6.3.2
-Stable tag: 1.0.0
-Requires PHP: 7.4
-License: GPLv3 or later
-License URI: http://www.gnu.org/copyleft/gpl-3.0.html
+# UCF Expertise Taxonomy Plugin #
 
 A WordPress plugin that defines the Expertise taxonomy, used for grouping posts by area of research or subject.
 
 
-== Description ==
+## Description ##
 
 A WordPress plugin that defines the Expertise taxonomy, used for grouping posts by area of research or subject.
 
 
-== Documentation ==
+## Documentation ##
 
 Head over to the [UCF Expertise Taxonomy Plugin wiki](https://github.com/UCF/ucf-expertise-tax-plugin/wiki) for detailed information about this plugin, installation instructions, and more.
 
 
-== Changelog ==
+## Changelog ##
 
-= 1.0.0 =
+### 1.0.0 ###
 * Initial release
 
 
-== Upgrade Notice ==
+## Upgrade Notice ##
 
 n/a
 
 
-== Development ==
+## Development ##
 
 Changes to these files should be tracked via git (so that users installing the plugin using traditional installation methods will have a working plugin out-of-the-box.)
 
 [Enabling debug mode](https://codex.wordpress.org/Debugging_in_WordPress) in your `wp-config.php` file is recommended during development to help catch warnings and bugs.
 
-= Requirements =
+### Requirements ###
 * node v16+
 * gulp-cli
 
-= Instructions =
+### Instructions ###
 1. Clone the ucf-expertise-tax-plugin repo into your local development environment, within your WordPress installation's `plugins/` directory: `git clone https://github.com/UCF/ucf-expertise-tax-plugin.git`
 2. `cd` into the new ucf-expertise-tax-plugin directory, and run `npm install` to install required packages for development into `node_modules/` within the repo
 3. Optional: If you'd like to enable [BrowserSync](https://browsersync.io) for local development, or make other changes to this project's default gulp configuration, copy `gulp-config.template.json`, make any desired changes, and save as `gulp-config.json`.
@@ -53,10 +46,10 @@ Changes to these files should be tracked via git (so that users installing the p
 4. If you haven't already done so, create a new WordPress site on your development environment to test this plugin against.
 5. Activate this plugin on your development WordPress site.
 
-= Other Notes =
+### Other Notes ###
 * This plugin's README.md file is automatically generated. Please only make modifications to the README.txt file, and make sure the `gulp readme` command has been run before committing README changes.  See the [contributing guidelines](https://github.com/UCF/ucf-expertise-tax-plugin/blob/master/CONTRIBUTING.md) for more information.
 
 
-== Contributing ==
+## Contributing ##
 
 Want to submit a bug report or feature request?  Check out our [contributing guidelines](https://github.com/UCF/ucf-expertise-tax-plugin/blob/master/CONTRIBUTING.md) for more information.  We'd love to hear from you!

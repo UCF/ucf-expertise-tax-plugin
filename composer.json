@@ -1,0 +1,8 @@
+{
+    "name": "ucf/ucf-expertise-tax-plugin",
+    "description": "A WordPress plugin that defines the Expertise taxonomy, used for grouping posts by area of research or subject.",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
