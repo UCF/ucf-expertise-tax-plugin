@@ -11,3 +11,9 @@ GitHub Plugin URI: UCF/ucf-expertise-tax-plugin
 if ( ! defined( 'WPINC' ) ) {
     die;
 }
+
+add_action( 'plugins_loaded', function() {
+    include_once 'includes/ucf-expertise-taxonomy.php';
+
+    add_action( 'init', array( 'UCF_Expertise_Taxonomy', 'register' ), 10, 0 );
+} );
